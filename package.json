@@ -1,0 +1,32 @@
+{
+  "name": "zmq-freelance-server",
+  "version": "0.1.0",
+  "description": "ZeroMQ freelance pattern server for node",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/camshaft/node-zmq-freelance-server.git"
+  },
+  "keywords": [
+    "zmq",
+    "freelance",
+    "server"
+  ],
+  "author": "Cameron Bytheway <bytheway.cameron@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/camshaft/node-zmq-freelance-server/issues"
+  },
+  "homepage": "https://github.com/camshaft/node-zmq-freelance-server",
+  "dependencies": {
+    "buffer-equal": "0.0.0",
+    "uuid": "^1.4.1",
+    "zmq": "^2.6.0"
+  }
+}
